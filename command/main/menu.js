@@ -94,7 +94,7 @@ module.exports = {
 			  menu += `*乂 ${key.toUpperCase()}*\n`
 			  menu += `${category[key].map((cmd) => monospace(` × ${cmd.options.noPrefix ? "" : pref}${cmd.name} ${map.lockcmd.get(cmd.name) ? "❌" : ""}`)).join("\n")} ` + "\n\n"
 			}
-                        menu += `*Thanks To:`
+                        menu += `© 2022`
 			menu += `_Note : Ketik ${prefix}help <command> untuk melihat info command_`
 			
 			const buttons = [
