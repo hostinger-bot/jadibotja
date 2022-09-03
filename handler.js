@@ -109,7 +109,7 @@ module.exports = handler = async (mek, conn, map) => {
 							showAdAttribution: true,
 							body: config.namebot,
 							thumbnail: await conn.getBuffer("https://telegra.ph/file/915b6ff0ddf1f7d145880.jpg"),
-							sourceUrl: "https://chat.whatsapp.com/EdGuZCNrWGp2OFbXv5Rm8Y",
+							sourceUrl: "https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL",
 						},
 				  })
 				: "";
