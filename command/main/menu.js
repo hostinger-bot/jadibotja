@@ -48,7 +48,7 @@ module.exports = {
 	    category[cteg].push(info);
          }
         }
-                        teks = global.footer + " *[ Beta✓ ]*\n\n"
+                        teks = global.footer + " *[ BOTWA]*\n\n"
 		  	teks += monospace(" ❏ Library : Baileys-MD") + "\n"
 		  	teks += monospace(" ❏ Author : " + "@" + config.owner[0].split("@")[0] )+ "\n"
 		  	teks += monospace(" ❏ Prefix : [ " + pref + " ]") + "\n\n"
@@ -59,7 +59,7 @@ module.exports = {
         for(let i of nganu){
           teks += monospace(` × ${pref + i.name} ${map.lockcmd.get(i.name) ? "❌" : ""}`) + "\n"
         }
-        teks += "\n*Bot Masih dalam tahap Perkembangan*"
+        teks += "\n*Bot WhatsApp Multi Device*"
         msg.reply(teks,{withTag: true})
       } else {
         for (let cmd of cmds){
@@ -75,7 +75,7 @@ module.exports = {
                 category[cteg].push(info);
           }
         }
-			menu = global.footer + " *[ Beta✓ ]*\n\n"
+			menu = global.footer + " *[ BOTWA ]*\n\n"
 			menu += monospace(" ❏ Library : Baileys-MD") + "\n"
 			menu += monospace(" ❏ Author : " + "@" + config.owner[0].split("@")[0] )+ "\n"
 			menu += monospace(" ❏ Prefix : [ " + pref + " ]") + "\n"
