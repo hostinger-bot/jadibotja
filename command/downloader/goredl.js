@@ -17,7 +17,7 @@ module.exports = {
       txt += monospace(` × Views : ${gore.views}`) + "\n"
       txt += monospace(` × Comment : ${gore.comment}`) + "\n"
       txt += monospace(` × Link : ${gore.link}`) + "\n\n"
-      txt += "*_乂 Simple WhatsApp - Bot By Senkuu_*"
+      txt += "*_乂 Simple WhatsApp Bot*"
       conn.sendFile(msg.from, gore.link, "", txt,msg)
     } catch (e){
       global.error(msg.command, e, msg)
