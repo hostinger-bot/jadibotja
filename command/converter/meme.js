@@ -44,8 +44,8 @@ module.exports = {
         buffer = isQImg ? await quoted.download() : await msg.download();
 				const upload = await tool.telegraph(buffer)
         const packInfo = {
-          packname: "Senkuu BOT",
-          author: "Beta✓",
+          packname: "BOTCAHX",
+          author: "BOT",
         }
         const url = await encodeurl(`https://api.memegen.link/images/custom/${t1}/${t2}.png?background=${upload}`)
         const stickerBuff = await sticker(await conn.getBuffer(url), {
